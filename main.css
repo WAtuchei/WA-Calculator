@@ -1,0 +1,84 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+:root {
+    --base: #EDE4E0;
+    --Lgreen: #C8DBBE;
+    --Lbrown: #9F8772;
+    --Dbrown: #665A48;}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d787465 !important;}
+
+/*Calculator Body*/
+#Cal {
+    width: 420px;
+    max-height: 590px;
+    background-color: var(--Lgreen);
+    box-shadow: 1px 1px 10px #1e1e21;}
+#Cal {    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;}
+
+/*Screen*/
+#Screen {
+    height: 6.125rem;
+    background-color: var(--base);
+    box-shadow: -2px -2px #22222569;}
+
+/*Key Pads*/
+#KeyPad > div {
+    width: 18%;  /*Need Responsive*/
+    background-color: var(--Lbrown);
+    cursor: pointer;}
+
+    #KeyPad > div:active {
+        background-color: #8d7865;
+        box-shadow: 1px 1px 10px inset #1e1e2169;}
+
+#KeyPad > div > i {padding-left: 0.1rem;}  /*Clock icon adjustment*/
+
+.Sym {  /*Symbols*/
+    padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;}
+
+/*Footer*/
+footer {
+    height: 5rem;
+    background-color: #679289;}
+footer a {
+    font-family: "Sofia", sans-serif;
+    text-decoration: none;}
+
+    
+/*Media Query*/
+@media only screen and (max-width: 576px) {
+    #KeyPad > div {
+        width: 16%;}
+}   
+
+@media only screen and (min-width: 576px) and (max-width: 767px) /*sm*/ {
+    #KeyPad > div {
+        width: 17%;}
+}    
+
+@media only screen and (min-width: 768px) and (max-width: 991px) /*md*/ {
+    #KeyPad > div {
+        width: 17%;}
+}   
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) /*lg*/ {
+    #KeyPad > div {
+        width: 17.5%;}
+}   
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) /*xl*/ {
+    
+}
