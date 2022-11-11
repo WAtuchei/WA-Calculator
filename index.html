@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="WAtuchei">
+    <title>WA Calculator</title>
+
+    <link rel="shortcut icon" href="Favico2n.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"> <!--Fonts-->
+    <link rel="stylesheet" href="../Calculator/FW/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="../Calculator/FW/bootstrap.min.js"></script>
+</head>
+<body>
+<!--Start Calculator Project on 27 October-->
+<!--Finish Design on 28 October-->
+<!--3 Nov Change Design remove History-->
+    <section id="Cal" class="container px-4 rounded">
+<!--Inner Calculator-->
+    <!--Screen Zone-->
+       <div id="Screen" class="row gy-1 my-4 mx-1 px-3 text-dark rounded">
+        <div class="col-12 text-end">
+            <h1 id="ResultDisplay" class="h1"></h1>
+        </div>
+        <div class="col-12 text-end">
+            <h5 id="Preview" class="h5"></h5>
+        </div>
+       </div> 
+
+    <!--Keypad Zone-->
+        <div id="KeyPad" class="row mb-2 text-light text-center justify-content-around">
+            <div id="OP"   class="col-3 h2 m-2 Sym text-warning rounded-circle">( </div>
+            <div id="OP"   class="col-3 h2 m-2 Sym text-warning rounded-circle"> )</div>
+            <div id="OP"   class="col-3 h2 m-2 py-3 text-warning rounded-circle">%</div>
+            <div id="OP"  class="col-3 h2 m-2 Sym text-warning rounded-circle">÷</div>
+            <div id="BTN"     class="col-3 h2 m-2 py-3 rounded-circle">7</div>
+            <div id="BTN"     class="col-3 h2 m-2 py-3 rounded-circle">8</div>
+            <div id="BTN"      class="col-3 h2 m-2 py-3 rounded-circle">9</div>
+            <div id="OP"  class="col-3 h2 m-2 Sym text-warning rounded-circle">x</div>
+            <div id="BTN"      class="col-3 h2 m-2 py-3 rounded-circle">4</div>
+            <div id="BTN"      class="col-3 h2 m-2 py-3 rounded-circle">5</div>
+            <div id="BTN"       class="col-3 h2 m-2 py-3 rounded-circle">6</div>
+            <div id="OP"     class="col-3 h2 m-2 Sym text-warning rounded-circle">–</div>
+            <div id="BTN"       class="col-3 h2 m-2 py-3 rounded-circle">1</div>
+            <div id="BTN"       class="col-3 h2 m-2 py-3 rounded-circle">2</div>
+            <div id="BTN"     class="col-3 h2 m-2 py-3 rounded-circle">3</div>
+            <div id="OP"      class="col-3 h2 m-2 Sym text-warning rounded-circle">+</div>
+            <div id="ClearBTN"  class="col-3 h2 m-2 py-3 text-warning rounded-circle">C</div>
+            <div id="BTN"      class="col-3 h2 m-2 py-3 rounded-circle">0</div>
+            <div id="BTN"     class="col-3 h2 m-2 Sym rounded-circle">.</div>
+            <div id="OP"     class="col-3 h2 m-2 Sym text-warning rounded-circle">=</div>
+        </div>
+    </section>
+
+<!--Footer-->
+    <footer class="container-fluid fixed-bottom">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-4"></div>
+
+                <div class="col-4 text-center my-auto">
+                    <a href="../BootstrapProject/index.html" class="col-4 h2 text-info my-auto" target="_blank">WAtuchei</a>
+                </div>
+                
+                <div class="col-4 text-end my-auto">
+                    <a href="#">
+                        <i class="h1 text-light bi bi-github"></i>
+                        <span class="h3 text-light mx-2">For More</span>
+                    </a>
+                </div>
+            <!--Clear-->
+                <div></div>
+            <!--Clear-->
+                <div class="text-center">
+                   <span class="text-light">© Copyright 2022</span> 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Not design History tab yet-->
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
