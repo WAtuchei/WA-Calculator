@@ -66,7 +66,7 @@ footer a {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) /*sm*/ {
     #KeyPad > div {
-        width: 16.5%;}
+        width: 17%;}
 }    
 
 @media only screen and (min-width: 768px) and (max-width: 991px) /*md*/ {
