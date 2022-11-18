@@ -18,48 +18,47 @@
 <!--Start Calculator Project on 27 October-->
 <!--Finish Design on 28 October-->
 <!--3 Nov Change Design remove History-->
-    <con class="container">
-        <section id="Cal" class="container px-4 py-2 rounded">
-        <!--Inner Calculator-->
-            <!--Screen Zone-->
-           <div id="Screen" class="row gy-1 my-4 mx-1 px-3 text-dark rounded">
-            <div class="col-12 text-end">
-                <h1 id="ResultDisplay" class="h1"></h1>
-            </div>
-            <div class="col-12 text-end">
-                <h5 id="Preview" class="h5"></h5>
-            </div>
-           </div> 
-        
-        <!--Keypad Zone-->
-            <div id="KeyPad" class="row mb-2 text-light text-center justify-content-around">
-                <div id="OP"   class="col-3 h2 m-2 Sym text-warning rounded-circle">( </div>
-                <div id="OP"   class="col-3 h2 m-2 Sym text-warning rounded-circle"> )</div>
-                <div id="OP"   class="col-3 h2 m-2 py-3 text-warning rounded-circle">%</div>
-                <div id="OP"  class="col-3 h2 m-2 Sym text-warning rounded-circle">÷</div>
-                <div id="BTN"     class="col-3 h2 m-2 py-3 rounded-circle">7</div>
-                <div id="BTN"     class="col-3 h2 m-2 py-3 rounded-circle">8</div>
-                <div id="BTN"      class="col-3 h2 m-2 py-3 rounded-circle">9</div>
-                <div id="OP"  class="col-3 h2 m-2 Sym text-warning rounded-circle">x</div>
-                <div id="BTN"      class="col-3 h2 m-2 py-3 rounded-circle">4</div>
-                <div id="BTN"      class="col-3 h2 m-2 py-3 rounded-circle">5</div>
-                <div id="BTN"       class="col-3 h2 m-2 py-3 rounded-circle">6</div>
-                <div id="OP"     class="col-3 h2 m-2 Sym text-warning rounded-circle">–</div>
-                <div id="BTN"       class="col-3 h2 m-2 py-3 rounded-circle">1</div>
-                <div id="BTN"       class="col-3 h2 m-2 py-3 rounded-circle">2</div>
-                <div id="BTN"     class="col-3 h2 m-2 py-3 rounded-circle">3</div>
-                <div id="OP"      class="col-3 h2 m-2 Sym text-warning rounded-circle">+</div>
-                <div id="ClearBTN"  class="col-3 h2 m-2 py-3 text-warning rounded-circle">C</div>
-                <div id="BTN"      class="col-3 h2 m-2 py-3 rounded-circle">0</div>
-                <div id="BTN"     class="col-3 h2 m-2 Sym rounded-circle">.</div>
-                <div id="OP"     class="col-3 h2 m-2 Sym text-warning rounded-circle">=</div>
-            </div>
-        </section>       
-    </con>
+    <section id="Cal" class="container px-4 rounded">
+<!--Inner Calculator-->
+    <!--Screen Zone-->
+       <div id="Screen" class="row gy-1 my-4 mx-1 px-3 text-dark rounded">
+        <div class="col-12 text-end">
+            <h1 id="ResultDisplay" class="h1"></h1>
+        </div>
+        <div class="col-12 text-end">
+            <h5 id="Preview" class="h5"></h5>
+        </div>
+       </div> 
+
+    <!--Keypad Zone-->
+        <div id="KeyPad" class="row mb-2 text-light text-center justify-content-around">
+            <div id="OP"   class="col-3 h2 m-2 Sym text-warning rounded-circle">( </div>
+            <div id="OP"   class="col-3 h2 m-2 Sym text-warning rounded-circle"> )</div>
+            <div id="OP"   class="col-3 h2 m-2 py-3 text-warning rounded-circle">%</div>
+            <div id="OP"  class="col-3 h2 m-2 Sym text-warning rounded-circle">÷</div>
+            <div id="BTN"     class="col-3 h2 m-2 py-3 rounded-circle">7</div>
+            <div id="BTN"     class="col-3 h2 m-2 py-3 rounded-circle">8</div>
+            <div id="BTN"      class="col-3 h2 m-2 py-3 rounded-circle">9</div>
+            <div id="OP"  class="col-3 h2 m-2 Sym text-warning rounded-circle">x</div>
+            <div id="BTN"      class="col-3 h2 m-2 py-3 rounded-circle">4</div>
+            <div id="BTN"      class="col-3 h2 m-2 py-3 rounded-circle">5</div>
+            <div id="BTN"       class="col-3 h2 m-2 py-3 rounded-circle">6</div>
+            <div id="OP"     class="col-3 h2 m-2 Sym text-warning rounded-circle">–</div>
+            <div id="BTN"       class="col-3 h2 m-2 py-3 rounded-circle">1</div>
+            <div id="BTN"       class="col-3 h2 m-2 py-3 rounded-circle">2</div>
+            <div id="BTN"     class="col-3 h2 m-2 py-3 rounded-circle">3</div>
+            <div id="OP"      class="col-3 h2 m-2 Sym text-warning rounded-circle">+</div>
+            <div id="ClearBTN"  class="col-3 h2 m-2 py-3 text-warning rounded-circle">C</div>
+            <div id="BTN"      class="col-3 h2 m-2 py-3 rounded-circle">0</div>
+            <div id="BTN"     class="col-3 h2 m-2 Sym rounded-circle">.</div>
+            <div id="OP"     class="col-3 h2 m-2 Sym text-warning rounded-circle">=</div>
+        </div>
+    </section>
+
 <!--Footer-->
-    <footer class="container-fluid">
-        <div class="container">
-            <div class="row">
+    <footer class="container-fluid fixed-bottom">
+        <div class="container h-100">
+            <div class="row h-100">
                 <div class="col-0 col-md-4"></div>
 
                 <div class="col-6 col-sm-6 col-md-4 text-center my-auto">
@@ -81,6 +80,9 @@
             </div>
         </div>
     </footer>
+
+    <!--Not design History tab yet-->
+    
 
     <script src="main.js"></script>
 </body>
