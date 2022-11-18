@@ -70,8 +70,6 @@ for (buttons of CalBTN){
                 Preview.innerText = eval(para)
             }
         }
-        console.log(para)
-console.log(paraP)
     })
 }
 
@@ -127,19 +125,10 @@ for (buttons of OP){
             para += BTNValue
             Preview.innerText = eval(para)
         }
-        console.log(para)
-console.log(paraP)
     })
 }
 
 
-
 /*Events*/
 document.body.addEventListener('onload', SetZero());
-
 ClearBTN.addEventListener('click', SetZero);
-ClearBTN.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape'){
-        SetZero();  /*Not Working Yet*/
-    }
-} );
