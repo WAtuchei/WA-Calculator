@@ -9,13 +9,16 @@
 body {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #1d787465 !important;}
 
 /*Calculator Body*/
 #Cal {
-    width: 420px;
+    min-width: 375px;
+    max-width: 420px;
+    min-height: 550px;
     max-height: 590px;
     background-color: var(--Lgreen);
     box-shadow: 1px 1px 10px #1e1e21;}
@@ -43,15 +46,15 @@ body {
         background-color: #8d7865;
         box-shadow: 1px 1px 10px inset #1e1e2169;}
 
-#KeyPad > div > i {padding-left: 0.1rem;}  /*Clock icon adjustment*/
-
 .Sym {  /*Symbols*/
     padding-top: 0.8rem !important;
     padding-bottom: 0.8rem !important;}
 
 /*Footer*/
 footer {
-    height: 5rem;
+    position: fixed;
+    bottom: 0;
+    max-height: 5rem;
     background-color: #679289;}
 footer a {
     font-family: "Sofia", sans-serif;
@@ -61,7 +64,7 @@ footer a {
 /*Media Query*/
 @media only screen and (max-width: 576px) {
     #KeyPad > div {
-        width: 16.5%;}
+        width: 17%;}
 }   
 
 @media only screen and (min-width: 576px) and (max-width: 767px) /*sm*/ {
