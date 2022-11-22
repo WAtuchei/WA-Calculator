@@ -17,6 +17,7 @@ body {
 #Cal {
     width: 420px;
     max-height: 590px;
+    margin-bottom: 4em;
     background-color: var(--Lgreen);
     box-shadow: 1px 1px 10px #1e1e21;}
 #Cal {    
@@ -51,6 +52,9 @@ body {
 
 /*Footer*/
 footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
     height: 5rem;
     background-color: #679289;}
 footer a {
@@ -77,8 +81,4 @@ footer a {
 @media only screen and (min-width: 992px) and (max-width: 1199px) /*lg*/ {
     #KeyPad > div {
         width: 17.5%;}
-}   
-
-@media only screen and (min-width: 1200px) and (max-width: 1399px) /*xl*/ {
-    
 }
